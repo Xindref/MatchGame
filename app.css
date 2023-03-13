@@ -3,9 +3,10 @@ h1 {
 }
 
 p {
+    font-size: 2rem;
     color: aqua;
 }
 
 body {
-    background-color: cornsilk;
+    background-color: teal;
 }
