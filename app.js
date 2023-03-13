@@ -9,3 +9,19 @@ function calculateTaxes(income) {
         return income * .15;
     }
 }
+
+function removeDupes(values) {
+    const arr = [...new Set(values)];
+    console.log(typeof values);
+    if (typeof values === 'string') {
+        console.log('string array');
+        return arr.join('');
+    }
+    return arr;
+}
+
+function remove(arr, val) {
+    return arr.filter((el) => {
+        return el !== val
+    })
+}
